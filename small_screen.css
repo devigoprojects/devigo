@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Thasadith&display=swap');
+@media(max-width: 700px){
+   
+   
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+   html{
+    scroll-behavior: smooth;
+   }
+
+    body{
+        overflow-x: hidden;
+    }
+    
+    p{
+        font-family: 'Thasadith', sans-serif;
+    }
+
+    .container-col img{
+    
+        margin-left: px;
+        margin-right: 15px;
+    
+    }
+
+   .navbar.transparent{
+    background-color: transparent;
+   }
+
+   .navbar.scrolled{
+    background-color: white;
+   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+   }
+
+    .navbar{
+        font-family: 'Poiret One', cursive;
+        position: fixed;
+        top: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar img{
+        height: 50px;
+        width: auto;
+       padding-left: 10%;
+    
+    }
+       .text-box h1{
+        font-family: 'Poiret One', cursive;
+        font-size: 20px;
+
+    }
+
+    .nav-links{
+        background-color: #f44336;
+    }
+
+ 
+    .nav-links ul li {
+        display: block;
+       color: #fff;
+       
+  }
+  .nav-links ul li a{
+   color: #fff;
+   display: flex;
+   margin-top: 50px;
+   text-decoration: none;
+   font-size: 1.5em;
+  
+}
+
+.nav-links a.active{
+    padding-bottom: 10px;
+    border-bottom: 2px  solid white;
+    margin-right: 10%;
+}
+
+
+.hero video{
+    width:100%;
+    height: 50vh;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+}
+
+.text-box{
+    padding: 10px;
+    z-index: -1;
+}
+
+.text-box .main-title{
+    
+    font-size: 2.8em;
+    font-weight: bold;
+    color: #f44336;
+   
+}
+
+.text-box .sub-text{
+    padding-top: 10px;
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, 0.6);
+   
+}
+
+.hero-btn {
+    font-family: 'Thasadith', sans-serif;
+    color:  white;
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: #f44336d5;
+    /* transition: color 0.6s ease-in-out, background-color 0.5s ease-in-out; */
+
+}
+.text-box p{
+    font-size: 1em;
+    color: #f44336d5;
+}
+/* .hero-btn:hover{
+    color: #fff;
+    background-color: #f44336d5;
+} */
+
+
+
+    .nav-links{
+        
+        position:absolute;
+        background: #f44336;
+        height: 100vh;
+        width:70%;
+        top:0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+       
+        
+    }
+
+
+    .nav-links ul{
+        padding: 35px;
+       
+    }
+ nav .fa{
+ 
+    display: block;
+    color: #fff;
+    font-size: 32px;
+    cursor: pointer;
+    margin: 12px;
+ }
+/* service */
+
+.services-H{
+    font-family: 'Poiret One', cursive;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom:10px ;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.service p{
+    text-align: center;
+}
+
+.service-col {
+    border: 1px solid #f44336f0;
+    padding-left: 20px;
+    padding-right:20px ;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+
+
+.service-col img{
+   width: 100%;
+   text-align: center;
+   justify-content: center;
+}
+
+.service-col h3{
+    font-family: 'Poiret One', cursive;
+    text-align: start;
+    color: #f44336f0;;
+    font-size: 1.5em;
+}
+
+
+.service-col p{ 
+    padding-top: 10px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1em;
+}
+
+.works-H{
+    font-family: 'Poiret One', cursive;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20px;
+    color: rgba(0, 0, 0, 0.7);
+   
+}
+
+.work{
+    margin-bottom: 50px;
+}
+
+.work-col{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: start;
+    padding-top: 10px;
+}
+
+
+.image img{
+    height: 100px;
+    width: 100px;
+    padding: 2px;
+    border-radius: 60px;
+    background-color:#f44336f0;
+    object-fit: cover
+}
+
+.work-col h3{
+    font-family: 'Poiret One', cursive;
+    font-size: 1.6em;
+    padding-left: 20px;
+}
+
+.footer-contact{
+    margin-top: 30px;
+    background-color: #f44336;
+    padding: 20px;
+    
+
+}
+
+.footer-contact h3{
+    font-family: 'Thasadith', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4em;
+   border-bottom:1px solid white;
+   padding-bottom: 10px;
+}
+.footer-contact .item{
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer-contact .item i{
+    font-size: 20px;
+}
+
+.footer-contact a{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: 'Thasadith', sans-serif;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+}
+
+
+
+.sample-works h1{
+    padding-top: 20%;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+ .hr{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+
+
+.project h2{
+    text-align: start;
+    padding-left: 20px;
+    font-family: 'Thasadith', sans-serif;
+}
+
+.project p{
+    text-align: start;
+    padding-left: 20px;
+    font-family: 'Thasadith', sans-serif;
+}
+
+.project img{
+    width: 100%;
+    padding: 20px;
+}
+
+.and-more{
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Thasadith', sans-serif;
+    color: #f44336;
+}
